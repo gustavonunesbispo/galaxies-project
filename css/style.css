@@ -9,6 +9,10 @@
 
 body {
   background: #121214;
+  display: grid;
+  justify-content: center;
+  padding: 72px 104px 114px;
+
 }
 
 header h1 {
@@ -23,6 +27,22 @@ header p {
   font-size: 32px;
   font-weight: 600;
   line-height: normal;
+
+  margin-top: 8px;
+}
+
+main {
+  margin-top: 62px;
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  gap: 48px 60px;
+}
+
+.card {
+  background: #323238;
+  border-radius: 8px;
+  border: 2px solid #202024;
+  overflow: hidden;
 }
 
 main h2 {
@@ -30,6 +50,7 @@ main h2 {
   font-size: 36px;
   font-weight: 900;
   line-height: normal;
+  margin: 24px 32px 0;
 }
 
 main p {
@@ -37,4 +58,6 @@ main p {
   font-size: 20px;
   font-weight: 600;
   line-height: normal;
+  margin: 24px 32px 24px;
 }
+
